@@ -45,13 +45,13 @@ public class App
                         garage.listVehicles(); 
                         break;                       
                     case "3":
-                        
+                        garage.driveCars(); 
                         break;
                     case "4":
-                        
+                        garage.flyPlanes();
                         break;
                     case "5":
-                        
+                        garage.sailShips();
                         break;
                     case "0":
                         System.out.println("Kiitos ohjelman käytöstä.");

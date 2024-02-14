@@ -5,4 +5,7 @@ public class Car extends Vehicle {
         super("auto", _manufacturer, _model, _maxSpeed);
         engine = new Engine("V8", 300);
     }
+    public void drive() {
+        System.out.println(manufacturer + " " + model + " paahtaa tietä eteenpäin!");
+    }
 }

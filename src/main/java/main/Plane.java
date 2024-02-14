@@ -5,4 +5,7 @@ public class Plane extends Vehicle {
         super("lentokone", _manufacturer, _model, _maxSpeed);
         engine = new Engine("Suihkumoottori", 500);
     }
+    public void fly() {
+        System.out.println(manufacturer + " " + model + " lentää kohteeseen!");
+    }
 }
